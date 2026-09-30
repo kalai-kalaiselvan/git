@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    
+}
+.container h1{
+    color:navy;
+}
+.container ::placeholder{
+    font-size: 18px;
+    color:navy;
+}
+.login-box p a{
+    text-decoration: none;
+     color:navy;
+}
+   .login-box p{
+        font-size: 21px;
+        }
+    label{
+        font-size: 21px ;
+    }
+    
+  .container{
+    height: 70vh;
+    width: 59vw;
+    background-color: rgba(199, 164, 164, 0.2);
+    position: absolute;
+    top: 23vh;
+    left: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    padding-left: 59px;
+}  
+        #logi{
+            display: block;
+            width: 300px;
+            height: 40px;
+            background-color:navy;
+            font-size: large;
+            color: white;
+            border-radius: 8px;
+            margin:20px 40px;
+            cursor: pointer;
+        }
+
+         #log{
+            display: block;
+            width: 420px;
+            height: 34px;
+            margin-bottom: 20px;
+            background-color: rgba(250, 250, 250, 0.4);
+            border-radius: 5px;
+        }
+.message{
+    /* color: message== "" */
+    position: absolute;
+    bottom: 2px;
+    left: 40vw;
+}
+link{
+    text-decoration: none;
+}           
+#back{
+    display: block;
+            width: 100px;
+            height: 40px;
+            background-color:navy;
+            font-size: large;
+            color: white;
+            border-radius: 8px;
+            margin:20px 40px;
+            cursor: pointer;
+            position: absolute;
+            bottom: -1px;
+            left: 28vw;
+}
+
